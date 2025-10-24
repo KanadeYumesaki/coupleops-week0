@@ -1,11 +1,14 @@
+import ThemeSwitcher from '../components/ThemeSwitcher';
 export default function Settings(){
 return(
-<main style={{padding:16}}>
+<main>
 <h1>設定</h1>
-<section aria-label="ヘルプとポリシー">
+<ThemeSwitcher/>
+<section aria-label="ヘルプとポリシー" style={{marginTop:16}}>
 <ul>
-<li><a href="/evidence" aria-label="研究の裏付け（学術ハイライト）">研究の裏付け <span>学術</span></a></li>
+<li><a href="/evidence">研究の裏付け（学術ハイライト）</a></li>
 <li><a href="/weekly">週次プレビュー</a></li>
+<li><a href="/lp">LP（紹介ページ）</a></li>
 </ul>
 </section>
 </main>

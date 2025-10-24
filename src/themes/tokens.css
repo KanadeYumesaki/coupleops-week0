@@ -1,0 +1,7 @@
+:root{ --bg:#FFFFFF; --text:#1F2937; --theme:#FFD7E0 }
+/* 既定: Light Pink */
+[data-theme="light"]{ --bg:#FFFFFF; --text:#1F2937; --theme:#FFD7E0 }
+/* Dark */
+[data-theme="dark"]{ --bg:#0B1220; --text:#E5E7EB; --theme:#111827 }
+/* Turquoise */
+[data-theme="turq"]{ --bg:#FFFFFF; --text:#0F172A; --theme:#2DD4BF }
