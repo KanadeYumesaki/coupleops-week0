@@ -1,4 +1,3 @@
-// import React from "react";
 import { Outlet } from "react-router-dom";
 import ConsentGate from "./components/ConsentGate";
 import AdBar from "./components/AdBar";
