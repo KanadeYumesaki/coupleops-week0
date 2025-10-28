@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 const THEMES = [
 {key:'light', label:'ライトピンク(既定)'},
 {key:'dark', label:'ダーク'},

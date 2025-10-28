@@ -1,4 +1,4 @@
-import React,{useEffect,useState}from'react';
+import {useEffect,useState}from'react';
 import{log}from'../lib/events';
 import TodayBenefitChip from'../components/TodayBenefitChip';
 const TPLS=['助かった！今日はゆっくりしてね','いつもありがとう。次は私が畳むね','いい感じ、続けたいね'];

@@ -39,7 +39,7 @@ button {
   justify-content: center;
   padding: 8px;
 }
-
+main{padding-bottom:calc(16px + env(safe-area-inset-bottom) + 64px)} /* 広告の被り回避 */
 /* 6) テーマ色が分かるボタン */
 .btn-theme { background: var(--theme); border-color: transparent; }
 

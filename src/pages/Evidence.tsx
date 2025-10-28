@@ -1,4 +1,4 @@
-import React,{useState}from'react';
+import {useState}from'react';
 import{readWeek}from'../lib/events';
 function Card({title,value,desc,refs,badge}:{title:string;value:string;desc:string;refs:{t:string;d:string}[];badge:{design:string;effect:string}}){
 const[open,setOpen]=useState(false);

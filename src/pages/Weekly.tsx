@@ -1,4 +1,4 @@
-import React,{useMemo}from'react';
+import {useMemo}from'react';
 import{readWeek}from'../lib/events';
 function fmt(n:number){return n<1000?`${n}+`:`${(n/1000).toFixed(1)}K+`;}
 export default function Weekly(){

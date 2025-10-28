@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import {useState} from 'react';
 export default function ConsentGate(){
 const [ok,setOk]=useState(localStorage.getItem('co_consent')==='1');
 if(ok) return null;
